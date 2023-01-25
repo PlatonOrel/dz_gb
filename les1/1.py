@@ -1,5 +1,5 @@
-int_a =1
-float_a =2.5
+int_a = 1
+float_a = 2.5
 str_input = input("Введите строку: ")
 in_input = int(input("Введите целое число: "))
 
