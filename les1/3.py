@@ -5,5 +5,5 @@ n = input('Введите число: ')
 nn = int(n+n)
 nnn = int(n+n+n)
 n = int(n)
-rezult = n+nn+nnn
-print(rezult)
+sum_numbers = n+nn+nnn
+print(sum_numbers)

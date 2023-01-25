@@ -17,5 +17,7 @@ if plus > minus:
     print('Рентабельность {} выручки {}: {:.2f}' .format('нашей','составила',rent))
     clear_for_person = float(clear_plus/people)
     print('Прибыль фирмы в расчете на одного сотрудника: %s'%clear_for_person)
+elif plus == minus:
+    print("Фирма работает в 0")
 else:
     print('Фирма работает в убыток')

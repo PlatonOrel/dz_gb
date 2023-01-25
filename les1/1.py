@@ -1,6 +1,6 @@
 int_a =1
 float_a =2.5
-str_input = str(input("Введите строку: "))
+str_input = input("Введите строку: ")
 in_input = int(input("Введите целое число: "))
 
 print (f"""int_a = {int_a}, type = {type(int_a)}""")

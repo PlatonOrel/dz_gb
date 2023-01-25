@@ -4,13 +4,13 @@
 
 n = int(input('Введите положительное число: '))
 
-max = n % 10
+max_numbers = n % 10
 while True:
     n = n // 10
-    if n % 10 > max:
-        max = n % 10
+    if n % 10 > max_numbers:
+        max_numbers = n % 10
     elif n > 9:
         continue
     else:
-        print(f'Максимальное число: {max}')
+        print(f'Максимальное число: {max_numbers}')
         break
