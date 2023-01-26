@@ -4,9 +4,9 @@
 
 text_input = input("Вводите строку из нескольких слов: ")
 concatenation_text = text_input.split()
-for x, y in enumerate (concatenation_text, start=1) :
-    if len(y) > 11 :
+for num_str, one_word in enumerate (concatenation_text, start=1) :
+    if len(one_word) > 11 :
         y = y[:10]
-        print(x, y)
+        print(num_str, one_word)
     else :
-        print (x,y)
+        print (num_str,one_word)

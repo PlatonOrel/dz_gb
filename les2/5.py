@@ -10,7 +10,7 @@ for j in range(rate_input):
     add_new = int(input("Введите значение которое необходимо добавить в рейтинг: "))
     if add_new in rate_list:
         i = rate_list.index(add_new)
-        while (i + 1) <= (len(rate_list) - 1) and (rate_list[i] == rate_list[i + 1]):
+        while i + 1 <= len(rate_list) - 1 and rate_list[i] == rate_list[i + 1]:
             i += 1
         rate_list.insert(i, add_new)
         print(f"Обновлённый рейтинг {rate_list}")
